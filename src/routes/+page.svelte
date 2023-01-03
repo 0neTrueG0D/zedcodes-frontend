@@ -1,4 +1,4 @@
-<div class="bg-gray-200 font-sans leading-normal tracking-normal">
+<div class="bg-gray-300 font-sans leading-normal tracking-normal">
 
 	<!--Header-->
 	<div class="w-full m-0 p-0 bg-cover bg-bottom" style="background-image:url('cover.jpg'); height: 60vh; max-height:460px;">
