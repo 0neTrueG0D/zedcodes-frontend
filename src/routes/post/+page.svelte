@@ -1,7 +1,7 @@
 <div class="bg-white font-sans leading-normal tracking-normal">
 
 	<!--Nav-->
-	<nav class="bg-gray-900 p-4 mt-0 w-full">
+	<nav class="bg-gray-200 p-4 mt-0 w-full">
         <div class="container mx-auto flex items-center">
 		    <div class="flex text-white font-extrabold">
 				<a class="flex text-white text-base no-underline hover:text-white hover:no-underline" href="/"> 
