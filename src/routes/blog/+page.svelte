@@ -1,12 +1,12 @@
 <script>
-	import Codeblock from "../../lib/blogTextStyles/codeblock.svelte";
-	import Blockquote from "../../lib/blogTextStyles/blockquote.svelte";
-	import Subscribe from "../../lib/pageElements/subscribe.svelte";
-	import OneByThreeCard from "../../lib/blogCards/oneByThreeCard.svelte";
-	import Footer from "../../lib/pageElements/footer.svelte";
+	import Codeblock from "../../lib/blogTextStyles/Codeblock.svelte";
+	import Blockquote from "../../lib/blogTextStyles/Blockquote.svelte";
+	import Subscribe from "../../lib/pageElements/Subscribe.svelte";
+	import OneByThreeCard from "../../lib/blogCards/OneByThreeCard.svelte";
+	import Footer from "../../lib/pageElements/Footer.svelte";
 
 	export let data;
-	const { blog } = data
+	const { blog } = data;
 </script>
 
 <div class="bg-white font-sans leading-normal tracking-normal">

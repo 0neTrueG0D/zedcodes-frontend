@@ -1,11 +1,11 @@
 <script>
-	import Leadcard from "../lib/blogCards/leadcard.svelte";
-	import OneByThreeCard from "../lib/blogCards/oneByThreeCard.svelte";
-	import OneByTwoCard from "../lib/blogCards/oneByTwoCard.svelte";
-	import Header from "../lib/pageElements/header.svelte";
-	import Subscribe from "../lib/pageElements/subscribe.svelte";
-	import Footer from "../lib/pageElements/footer.svelte";
-	import Nav from "../lib/pageElements/nav.svelte";
+	import Leadcard from "../lib/blogCards/Leadcard.svelte";
+	import OneByThreeCard from "../lib/blogCards/OneByThreeCard.svelte";
+	import OneByTwoCard from "../lib/blogCards/OneByTwoCard.svelte";
+	import Header from "../lib/pageElements/Header.svelte";
+	import Subscribe from "../lib/pageElements/Subscribe.svelte";
+	import Footer from "../lib/pageElements/Footer.svelte";
+	import Nav from "../lib/pageElements/Nav.svelte";
 
 	export let data;
 	const { blog } = data
