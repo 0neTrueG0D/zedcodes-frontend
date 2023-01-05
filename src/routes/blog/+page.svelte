@@ -65,7 +65,7 @@
 	<!--Title-->
 	<div class="text-center pt-16 md:pt-32">
 		<p class="text-sm md:text-base text-green-500 font-bold">08 APRIL 2019 <span class="text-gray-900">/</span> GETTING STARTED</p>
-		<h1 class="font-bold break-normal text-3xl md:text-5xl"> { data.blog[0].title } </h1>
+		<h1 class="font-bold break-normal text-3xl md:text-5xl"> { data.blog[0].title } , gautam </h1>
 	</div>
 
 	<!--image-->
