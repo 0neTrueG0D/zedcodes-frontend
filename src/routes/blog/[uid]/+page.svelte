@@ -1,12 +1,13 @@
 <script>
-	import Codeblock from "../../lib/blogTextStyles/Codeblock.svelte";
-	import Blockquote from "../../lib/blogTextStyles/Blockquote.svelte";
-	import Subscribe from "../../lib/pageElements/Subscribe.svelte";
-	import OneByThreeCard from "../../lib/blogCards/OneByThreeCard.svelte";
-	import Footer from "../../lib/pageElements/Footer.svelte";
+	import Codeblock from "../../../lib/blogTextStyles/Codeblock.svelte";
+	import Blockquote from "../../../lib/blogTextStyles/Blockquote.svelte";
+	import Subscribe from "../../../lib/pageElements/Subscribe.svelte";
+	import OneByThreeCard from "../../../lib/blogCards/OneByThreeCard.svelte";
+	import Footer from "../../../lib/pageElements/Footer.svelte";
 
 	export let data;
-	const { blog } = data;
+	export let blog = data.blog;
+	console.log(blog)
 </script>
 
 <div class="bg-white font-sans leading-normal tracking-normal">
@@ -44,7 +45,7 @@
 			<div class="flex flex-wrap items-center content-center">
 				<div class="flex w-1/2 justify-start text-white font-extrabold">
 					<a class="flex text-gray-900 no-underline hover:text-gray-900 hover:no-underline pl-2" href="/">
-						👻 <span class="hidden w-0 md:w-auto md:block pl-1">Ghostwind CSS</span>
+						👻 <span class="hidden w-0 md:w-auto md:block pl-1">ZED.CODES</span>
 					</a>
 				</div>
 				<div class="flex w-1/2 justify-end content-center">		
@@ -67,7 +68,7 @@
 	<!--Title-->
 	<div class="text-center pt-16 md:pt-32">
 		<p class="text-sm md:text-base text-green-500 font-bold">08 APRIL 2019 <span class="text-gray-900">/</span> GETTING STARTED</p>
-		<h1 class="font-bold break-normal text-3xl md:text-5xl"> { data.blog[0].title } </h1>
+		<h1 class="font-bold break-normal text-3xl md:text-5xl"> { blog.title } </h1>
 	</div>
 
 	<!--image-->
@@ -79,16 +80,16 @@
 		<div class="mx-0 sm:mx-6">
 			
 			<div class="bg-white w-full p-8 md:p-24 text-xl md:text-2xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
-				`
+				
 				<!--Post Content-->
 				
 
 				<!--Lead Para-->
 				<p class="text-2xl md:text-3xl mb-5">
-					👋 Welcome fellow <a class="text-gray-800 hover:text-green-500 no-underline border-b-2 border-green-500" href="https://www.tailwindcss.com">Tailwind CSS</a> and <a class="text-gray-800 hover:text-green-500 no-underline border-b-2 border-green-500" href="https://www.ghost.org">Ghost</a> fan.  This starter template is an attempt to replicate the default Ghost theme <a class="text-gray-800 hover:text-green-500 no-underline border-b-2 border-green-500" href="https://demo.ghost.io/welcome">"Casper"</a> using Tailwind CSS and vanilla Javascript.
+					{ blog.description }
 				</p>
 
-				<p class="py-6"> { data.blog[0].body } </p>	
+				<p class="py-6"> { blog.body } </p>	
 				<ol>
 					<li class="py-3">Maecenas accumsan lacus sit amet elementum porta. Aliquam eu libero lectus. Fusce vehicula dictum mi. In non dolor at sem ullamcorper venenatis ut sed dui. Ut ut est quam. Suspendisse quam quam, commodo sit amet placerat in, interdum a ipsum. Morbi sit amet tellus scelerisque tortor semper posuere.</li>
 					<li class="py-3">Morbi varius posuere blandit. Praesent gravida bibendum neque eget commodo. Duis auctor ornare mauris, eu accumsan odio viverra in. Proin sagittis maximus pharetra. Nullam lorem mauris, faucibus ut odio tempus, ultrices aliquet ex. Nam id quam eget ipsum luctus hendrerit. Ut eros magna, eleifend ac ornare vulputate, pretium nec felis.</li>

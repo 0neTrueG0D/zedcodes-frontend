@@ -8,7 +8,7 @@
 	import Nav from "../lib/pageElements/Nav.svelte";
 
 	export let data;
-	const { blog } = data
+	const blogs  = data.blogs;
 </script>
 
 
@@ -30,10 +30,11 @@
 
 				
 				<div class="flex flex-wrap justify-between pt-12 -mx-6">
-
-					<OneByThreeCard/>
-					<OneByThreeCard/>
-					<OneByThreeCard/>
+				
+					{#each blogs as blog }
+						<OneByThreeCard title = { blog.title } link = { blog.uid } description = { blog.description }/>
+					{/each}
+					
 					
 					<OneByTwoCard/>
 					<OneByTwoCard/>
