@@ -8,6 +8,7 @@
 	export let data;
 	export let blog = data.blog;
 	console.log(blog)
+	let category = "JS"
 </script>
 
 <div class="bg-white font-sans leading-normal tracking-normal">
@@ -15,15 +16,15 @@
 	<!--Nav-->
 	<nav class="bg-gray-200 p-4 mt-0 w-full">
         <div class="container mx-auto flex items-center">
-		    <div class="flex text-white font-extrabold">
-				<a class="flex text-white text-base no-underline hover:text-white hover:no-underline" href="/"> 
-					👻 <span class="hidden w-0 md:w-auto md:block pl-1">Ghostwind CSS</span>
+		    <div class="flex text-gray-800 font-extrabold">
+				<a class="flex text-gray-800 text-base no-underline hover:text-gray-800 hover:no-underline" href="/"> 
+					<!--logo here--><span class="hidden w-0 md:w-auto md:block pl-1">ZED.CODES</span>
 				</a>
             </div>
 			<div class="flex pl-4 text-sm">
 				<ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
 				  <li class="mr-2">
-					<a class="inline-block py-2 px-2 text-white no-underline" href="index.html">HOME</a>
+					<a class="inline-block py-2 px-2 text-gray-800 no-underline" href="/">HOME</a>
 				  </li>
 				  <li class="mr-2">
 					<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="/">LINK</a>
@@ -67,7 +68,7 @@
 	
 	<!--Title-->
 	<div class="text-center pt-16 md:pt-32">
-		<p class="text-sm md:text-base text-green-500 font-bold">08 APRIL 2019 <span class="text-gray-900">/</span> GETTING STARTED</p>
+		<p class="text-sm md:text-base text-green-500 font-bold"> { blog.created_at } <span class="text-gray-900">/</span> { category }</p>
 		<h1 class="font-bold break-normal text-3xl md:text-5xl"> { blog.title } </h1>
 	</div>
 
@@ -108,10 +109,10 @@
 												
 				<!--/ Post Content-->
 						
+				<Subscribe/>
 			</div>
 			
 			
-				<Subscribe/>
 			
 	
 				
@@ -133,6 +134,7 @@
 			</div>
 		</div>
 	</div>
+	
 	<Footer/>
 
 <script>

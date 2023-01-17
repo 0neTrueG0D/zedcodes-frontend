@@ -12,7 +12,7 @@
 <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
     <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
         <a href="/blog/{ link }" class="flex flex-wrap no-underline hover:no-underline">
-            <img alt="img" src= { image } class="h-64 w-full rounded-t pb-6">
+            <img alt="img" src= { image } class="md:h-64 h-full w-full rounded-t pb-6">
             <p class="w-full text-gray-600 text-xs md:text-sm px-6"> { category }</p>
             <div class="w-full font-bold text-xl text-gray-900 px-6"> { title }. </div>
             <p class="text-gray-800 font-serif text-base px-6 mb-5">
