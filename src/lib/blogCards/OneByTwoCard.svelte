@@ -1,7 +1,8 @@
 <script>
     // default values for all feilds
+    export let link;
     export let category = "Awesome Blog";
-    export let image = "https://source.unsplash.com/collection/764827/800x600";
+    export let image = "https://source.unsplash.com/collection/3106804/800x600";
     export let title = "An Awsome Blog";
     export let description = "This blog is very informative and is a must read";
     export let profilePic = "http://i.pravatar.cc/300";
@@ -10,7 +11,7 @@
 
 <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
     <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-        <a href="/" class="flex flex-wrap no-underline hover:no-underline">
+        <a href="/blog/{ link }" class="flex flex-wrap no-underline hover:no-underline">
             <img alt="img" src={ image } class="h-full w-full rounded-t pb-6">
             <p class="w-full text-gray-600 text-xs md:text-sm px-6"> { category } </p>
             <div class="w-full font-bold text-xl text-gray-900 px-6"> { title }.</div>
