@@ -26,7 +26,9 @@
 
 				<div class="bg-gray-200 w-full text-xl md:text-2xl text-gray-800 leading-normal rounded-t">
 				
-				<Leadcard></Leadcard>
+				<Leadcard
+				title = { blogs[1].title } link = { blogs[1].uid } description = { blogs[1].description }
+				/>
 
 				
 				<div class="flex flex-wrap justify-between pt-12 -mx-6">
