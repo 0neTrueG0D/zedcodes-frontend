@@ -27,13 +27,7 @@
 					<a class="inline-block py-2 px-2 text-gray-800 no-underline" href="/">HOME</a>
 				  </li>
 				  <li class="mr-2">
-					<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="/">LINK</a>
-				  </li>
-				  <li class="mr-2">
-					<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="/">LINK</a>
-				  </li>
-					<li class="mr-2">
-					<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="/">LINK</a>
+					<a class="inline-block text-gray-600 no-underline hover:text-gray-800 hover:text-underline py-2 px-2" href="https://zedcodes.vercel.app/">PORTFOLIO</a>
 				  </li>
 				</ul>
 			</div>
@@ -46,7 +40,7 @@
 			<div class="flex flex-wrap items-center content-center">
 				<div class="flex w-1/2 justify-start text-white font-extrabold">
 					<a class="flex text-gray-900 no-underline hover:text-gray-900 hover:no-underline pl-2" href="/">
-						👻 <span class="hidden w-0 md:w-auto md:block pl-1">ZED.CODES</span>
+						<span class="hidden w-0 md:w-auto md:block pl-1">ZED.CODES</span>
 					</a>
 				</div>
 				<div class="flex w-1/2 justify-end content-center">		
@@ -111,19 +105,8 @@
 						
 				<Subscribe/>
 			</div>
-			
-			
-			
-	
-				
-			
 		</div>
-	
-
 	</div>
-
-
-
 
 	<div class="bg-gray-200">
 		<div class="container w-full max-w-6xl mx-auto px-2 py-8">
